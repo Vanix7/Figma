@@ -1,0 +1,43 @@
+.Content {
+    flex-grow: 1;
+    height: calc(100vh - 65px);
+    overflow: auto;
+    display: flex;
+    // display: flex;
+    // flex-direction: column;
+    // background-color: red;
+}
+
+// .Appointment {
+//     display: inline-block;
+// }
+
+.Appointment > a {
+    display: flex;
+    margin: 15px 40px;
+    margin-left: 40px;
+    margin-top: 15px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.Appointment > a > div {
+    margin-right: 14px;
+}
+.Appointment > a:active {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.Appointment > a svg{
+    fill: black;
+}
+
+.Appointment > a:active svg{
+    fill: rgba(0, 0, 0, 0.4);
+}
+
+.Appointment-Cards {
+    padding: 1px 0;
+    box-sizing: border-box;
+    overflow: auto;
+    height: calc(100vh - 104px);
+}

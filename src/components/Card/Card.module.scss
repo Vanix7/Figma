@@ -1,0 +1,66 @@
+.Card {
+    width: 475px;
+    height: 174px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px #EBE7FF;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.Card::before {
+    display: block;
+    content: "";
+    overflow: hidden;
+}
+
+.Card-Title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 20px 20px 0;
+    width: 231px;
+    height: 19px;
+}
+
+.Card-SubTitle {
+    width: 280px;
+    height: 40px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 5px 20px 10px;
+}
+
+.Card-Doctor {
+    width: 435px;
+    height: 60px;
+    margin: 0 20px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.Card-Doctor > div {
+    display: flex;
+}
+
+.Card-DoctorFIO {
+    margin: 13px 9px 0;
+}
+
+.Card-DoctorFIO > h5 {
+    margin-bottom: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;    
+}
+
+.Card-DoctorFIO > p {
+    font-size: 14px;
+    line-height: 17px;
+    color: #EBE7FF;
+}
+
+.Card-Img {
+    // background-image: url('../../assets/Card/image\ 7.png');
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}

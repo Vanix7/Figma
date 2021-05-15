@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.module.scss'
+import PrivateOffice from './page/PrivateOffice/PrivateOffice'
+import Appointment from './page/Appointment/Appointment'
+import Test from './page/Test.js'
+import {Redirect, Route, Switch} from 'react-router-dom'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Switch>
+      <Route exact path="/private-office" component={PrivateOffice}/>
+      <Route path="/private-office/appointment" component={Appointment}/>
+      <Route path="/test" component={Test}/>
+      <Redirect to="/private-office"/>
+    </Switch>
+    
   );
 }
 

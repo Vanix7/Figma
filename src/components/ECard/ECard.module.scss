@@ -1,0 +1,74 @@
+.Container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ECard {
+    display: flex;
+    width: 540px;
+    height: 183px;
+    margin-bottom: 15px;
+    margin-right: 16px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px #EBE7FF;
+    border-radius: 5px;   
+    overflow: hidden; 
+}
+
+.ECard:hover {
+    box-shadow: 0px 0px 5px #50CAFF;
+}
+.ECard h5 {
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #EBE7FF;
+}
+
+.ECard:hover h5 {
+    border-bottom: 2px solid #50CAFF;
+}
+.ECard-Illustration {
+    width: 133px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: #EBE7FF;
+}
+
+.ECard:hover .ECard-Illustration {
+    background: #50CAFF; 
+    fill: #FFFFFF;
+}
+.ECard-Illustration svg {
+    fill: inherit;
+}
+.ECard-Illustration svg path {
+    fill: inherit;
+}
+.ECard-Content {
+    margin: 20px auto;
+}
+.ECard ul {
+    margin-top: 15px;
+    list-style-position: inside;
+
+}
+
+.ECard li::marker {
+    color: #50CAFF;
+    margin-right: -11px;
+}
+.ECard li {
+    margin-bottom: 7px;
+}
+
+.ECard p {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    width: 324px;
+}

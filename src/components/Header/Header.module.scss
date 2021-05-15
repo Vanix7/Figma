@@ -1,0 +1,92 @@
+$bc: #003B72;
+$color: #FFFFFF;
+$active: #FCFCFC;
+$activeColor: #7761FF;
+
+header {
+    display: flex;
+    height: 55px;
+    width: 100%;
+}
+
+.HeaderLogo {
+    font-weight: normal;
+    font-size: 14px;
+    padding: 15px 0 14px 20px;
+    min-width: 190px;
+    height: 100%;
+    background-color: $bc;
+    font-size: 14px;
+    line-height: 17px;
+    color: $color;
+    box-sizing: border-box;
+}
+.HeaderMenu {
+    width: 100%;
+    background-color: #50CAFF;
+    color: $color;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Title {
+    font-size: 28px;
+    line-height: 33px;
+    margin: 12px 40px 10px;
+}
+.HeaderLinks {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+// .HeaderLinks li {
+//     display: inline-block;
+// }
+
+.HeaderLinks li:nth-child(-n+3) {
+    margin-left: 21.55px;
+}
+.HeaderLinks li:last-child {
+    margin-right: 40px;
+}
+.HeaderLinks li:nth-child(4) {
+    margin-left: 20px;
+    margin-right: 7px;
+}
+.Avatar {
+    display: inline-block;
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    border: 1px solid white;  
+}
+
+.AvatarImg {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: 1px;
+    left: 1px;
+    background-size: cover;
+    background-image: url('../../assets/Layout/avatar.png');
+
+}
+
+// .Svg {
+//     width: inherit;
+//     height: inherit;
+//     display: inline-block;
+//     background-repeat: no-repeat;
+//     background-size: contain;
+// }
+// .Svg1 {
+//     background-image: url('../../svg/Header/Vector.svg');
+// }
+// .Svg2 {
+//     background-image: url('../../svg/Header/Vector (1).svg');
+// }
+// .Svg3 {
+//     background-image: url('../../svg/Header/Vector (2).svg');
+// }

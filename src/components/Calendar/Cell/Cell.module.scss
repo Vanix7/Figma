@@ -1,0 +1,25 @@
+.Cell {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.Cell span {
+    color: #000000;
+    font-size: 20px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.Cell div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22px;
+    height: 22px;
+    background: #50CAFF;
+    border-radius: 50%;
+    position: relative;
+    left: 38px;
+    color: #FFFFFF;
+}

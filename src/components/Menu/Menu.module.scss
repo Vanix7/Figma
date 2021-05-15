@@ -1,0 +1,59 @@
+$bc: #003B72;
+$color: #FFFFFF;
+$active: #FCFCFC;
+$activeColor: #7761FF;
+// svg path {
+//     stroke:inherit;
+//     stroke-width:inherit;
+//     fill:inherit;
+//     }
+nav {
+    height: calc(100vh - 55px);
+    min-width: 190px;
+    background-color: $bc;
+    font-size: 14px;
+    line-height: 17px;
+    color: $color;
+}
+nav ul {
+   list-style: none; 
+   margin: 0;
+   padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+nav ul li a {
+    color: $color;
+    display: block;
+    // font-family: Rubik;
+    // font-style: normal;
+    // font-weight: normal;
+    // font-size: 14px;
+    // line-height: 17px;
+    text-decoration: none;
+    padding: 15px 0 14px 52px;
+    fill: white;
+}
+
+
+
+nav ul li a svg {
+    position: absolute;
+    top: 14px;
+    left: 20px;
+    fill:inherit;
+}
+
+nav ul li a:hover, .active {
+    background-color: $active;
+    color: $activeColor;
+    fill: $activeColor;
+    border-left: solid 3px $activeColor;
+    padding: 15px 0 14px 49px;
+
+}
+

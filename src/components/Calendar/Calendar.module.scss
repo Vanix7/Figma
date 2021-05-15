@@ -1,0 +1,66 @@
+.Calendar {
+    display: flex;
+    flex-wrap: wrap;
+    width: 573px;
+    height: 481px;
+    margin: 48px auto;
+    background-color: #EBE7FF;
+    border-radius: 5px;
+    overflow: hidden;
+    align-content: flex-start;
+
+}
+
+
+.Calendar-Cell {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin: 0 auto;
+    width: 553px;
+}
+.DasWeek {
+    display: flex;
+}
+.DasWeek > div {
+    min-width: 79px;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 9px 0;
+}
+.Calendar-Cell > div {
+    min-width: 79px;
+    height: 63px;
+}
+
+.Calendar-Title {
+    width: 573px;
+    height: 57px;
+    background: #7761FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Calendar-Title > div {
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    display: flex;
+    cursor: pointer;
+}
+
+.Calendar-Title > div svg {
+    margin: 0 98.23px;
+    fill: rgb(255, 255, 255);
+}
+
+.Calendar-Title > div svg:active {
+    fill: rgba(255, 255, 255, 0.4);
+}
+
+.Calendar-Title > div span:active {
+    color: rgba(255, 255, 255, 0.4);
+}

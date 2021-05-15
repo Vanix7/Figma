@@ -1,0 +1,48 @@
+$color1: #003B72;
+$color2: #50CAFF;
+$color3: #7761FF;
+$color4: #000000;
+$color5: #FFFFFF;
+
+.Content {
+    flex-grow: 1;
+    height: calc(100vh - 55px);
+    overflow: auto;
+    // display: flex;
+    // flex-direction: column;
+}
+.ContentBlock  {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.ContentBlock > div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.ContentBlock-Title {
+    margin: 15px 20px;
+    color: $color4;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.ContentBlock-More {
+    width: 91px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    // margin-left: 20px;
+
+}
+
+.ContentBlock-More > a {
+    color: rgb(80, 202, 255);
+}
+
+.ContentBlock-More > a:active {
+    color: rgba(80, 202, 255, 0.4);
+}
+
