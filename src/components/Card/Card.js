@@ -2,7 +2,7 @@ import classes from './Card.module.scss'
 import Button from '../../components/UI/Button/Button'
 
 const Card = props => {
-    console.log(props.image);
+    'sdfsdsdfsd'
     return (
         <div className = {classes.Card} style = {props.style}>
             <h5 className = {classes['Card-Title']}>
